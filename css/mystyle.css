@@ -1,0 +1,135 @@
+body {
+	background-color: #103328;
+}
+	
+h1#header1 {
+	color: #E3DCD2;
+	font-size: 3rem;
+	font-family: times new roman;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+article {
+	text-align: justify;
+  	text-justify: inter-word;
+}
+	
+article#content1 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	width: 515px;
+	height: 80px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+article#content2 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	width: 550px;
+	height: 90px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+img#covid19 {
+	width: 100px;
+	height: 140px;
+	float: left;
+	margin-top: 1px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+aside#images2 {
+	float: left;
+	clear: left;
+}
+
+img#masks {
+	width: 65px;
+	height: 65px;
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+	
+img#faceshield {
+	width: 65px;
+	height: 70px;
+	float: left;
+	clear: left;
+	margin-top: 4px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+article#content3 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	clear: left;
+	width: 625px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+nav {
+	width: 350px;
+	height: 225px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: 160px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CC8B65;
+	background-color: rgba(16,12,13,0.45);
+	position: absolute;
+	top: 26px;
+	right: -5px;
+}
+
+nav>ul	{
+      list-style-type: none;
+      padding: 0;
+	margin: auto;
+}
+
+li	{
+	font-size: 25px;
+	margin: 10px;
+	height: 33px;
+	background-color: #CC8B65;
+	text-decoration: none;
+}
+
+li>a{
+	color:  #103328;
+    	text-decoration: none;
+	font-family: courier new;
+	padding: auto;
+}
+
+iframe {
+	position: absolute;
+	top: 300px;
+	right: 155px;
+	border: solid;
+	border-color: #CC8B65;
+	border-width: 1px;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: #103328;
+}
+
+header {
+	color: #E3DCD2;
+	font-size: 2rem;
+	font-family: times new roman;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+li {
+	list-style-type: upper-roman;
+	color: rgb(204,139,101);
+	text-indent: -36px; 
+	padding-left: 36px;
+	font-size: 20px;
+}
+
+nav#back {
+	text-align: center;
+	margin: 30px;
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	bottom: 20px;
+	background-color: #E3DCD2;
+}
+
+a {
+	text-decoration: none;
+}
