@@ -1,0 +1,262 @@
+body {
+	background-color: #103328;
+}
+	
+header#header1 {
+	color: #E3DCD2;
+	font-size: 3rem;
+	font-family: times new roman;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+p {
+	padding: auto;
+	margin: auto;
+}
+
+article {
+	text-align: justify;
+  	text-justify: inter-word;
+	margin: auto;
+}
+	
+article#content1 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	width: 555px;
+	height: 80px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+article#content2 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	width: 590px;
+	height: 90px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+img#covid19 {
+	width: 100px;
+	height: 140px;
+	float: left;
+	margin-top: 1px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+aside#images2 {
+	float: left;
+	clear: left;
+}
+
+img#masks {
+	width: 65px;
+	height: 65px;
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+	
+img#faceshield {
+	width: 65px;
+	height: 70px;
+	float: left;
+	clear: left;
+	margin-top: 4px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+article#content3 {
+	background-color: rgba(204,139,101,0.8);
+	padding: 30px;
+	float: left;
+	clear: left;
+	width: 665px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #100C0D;
+}
+
+nav {
+	width: 350px;
+	height: 182px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: 160px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CC8B65;
+	background-color: rgba(16,12,13,0.45);
+	position: absolute;
+	top: 36px;
+	right: -27.5px;
+}
+
+ul {
+     list-style-type: none;
+     padding: 0;
+	 margin: auto;
+}
+
+li#a {
+	font-size: 25px;
+	margin: 10px;
+	height: 33px;
+	background-color: #CC8B65;
+	text-decoration: none;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	
+	-webkit-transition-property: background-color;
+	transition-property: background-color;
+}
+
+li#a:hover {
+	background-color: #103328;
+	cursor: pointer
+}
+
+li>a {
+	color: #103328;
+    text-decoration: none;
+	font-family: courier new;
+	padding: auto;
+	
+	-webkit-transition-property: color;
+	transition-property: color;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	
+	-webkit-transition-property: color;
+	transition-property: color;
+}
+
+li>a:hover {
+	color: #CC8B65;
+	cursor: pointer;
+}
+
+footer#ref{
+	position: absolute;
+	top: 520px;
+	margin: auto;
+	border: solid;
+	border-color: #CC8B65;
+	border-width: 1px;	
+	padding: 10px;
+}
+
+img {
+   border-color: #103328;
+}
+
+a#a>.sprite {
+	background: url('../images/icon.png') no-repeat -330px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+	border-width: 10px;  
+    background-color:  #103328;
+	position: absolute;
+	top: 5px;
+	left: 155px;
+
+}
+
+a#a>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -349px -401px;
+	width: 38px;
+	height: 37px;
+    transform: scale(.4); 
+	position: absolute;
+	top: 25px;
+	left: 172px;
+}
+
+a#b>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#b>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 22px;
+	left: 18px;
+    transform: scale(.4);
+}
+
+a#b {  
+	position: absolute;
+	top: 5px;
+	left: 190px;
+}   
+
+a#c>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#c>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 22px;
+	left: 21px;
+    transform: scale(.4);
+}
+
+a#c {  
+	position: absolute;
+	top: 5px;
+	left: 225px;
+}
+
+ul#ref {
+	list-style-type: none;
+	width: 1306px;
+}
+
+ul#ref>li {
+	text-indent: -36px;
+	padding-left: 36px; 
+}
+
+iframe {
+	position: absolute;
+	top: 270px;
+	right: 132.5px;
+	border: solid;
+	border-color: #CC8B65;
+	border-width: 1px;
+}

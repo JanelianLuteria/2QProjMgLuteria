@@ -1,0 +1,188 @@
+body{
+	background-color: #103328;
+}
+
+header {
+	color: #E3DCD2;
+	font-size: 2rem;
+	font-family: times new roman;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+h5 {
+	font-family: courier new;
+	margin: 0;
+	color: #47535e;
+}
+
+ul#sources>li {
+	text-align: center;
+	list-style-type: none;
+	background-color: #E3DCD2;
+	font-family: georgia;
+	text-indent: -36px; 
+	padding-left: 36px;
+	font-size: 20px;
+	width: 95%;
+	padding: 7px;
+	margin: 5px;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	
+	-webkit-transition-property: background-color;
+	transition-property: background-color;
+}
+
+ul#sources>li:hover {
+	background-color: #47535e;
+	cursor: pointer
+}
+
+div#div {
+	padding: 5px;
+	margin: 50px auto;
+	background-color: rgba(204,139,101,0.90);
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height:500px;
+	width:90%;
+	position: relative;
+	top: 10px;
+}
+
+p {
+	font-family: georgia;
+	color: #47535e;
+	margin-top: 3px;
+}
+
+a#s {
+	padding: 0;
+	text-decoration: none;
+	color: #47535e;
+	
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	
+	-webkit-transition-property: color;
+	transition-property: color;
+}
+
+a#s:hover {
+	color: #cc8b65;
+	cursor: pointer
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #E3DCD2;
+}
+
+ul#nav {
+	background-color: #47535e;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	height: 20px;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li#a>a {
+	text-decoration: none;
+	font-family: verdana;
+	padding: 10px;
+	color: #E3DCD2;
+}
+
+li#a>a:hover {
+	background-color: #E3DCD2;
+	color: #47535e;
+	overflow: hidden;
+}
+
+li#a>a:active {
+	color: #CC8B65;
+}
+
+a#a4 {
+	background-color: #103328;
+}
+
+a#a>.sprite {
+	background: url('../images/icon.png') no-repeat -330px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+	border-width: 10px;  
+    background-color:  #103328;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+
+}
+
+a#a>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -349px -401px;
+	width: 38px;
+	height: 37px;
+    transform: scale(.4); 
+	position: absolute;
+	top: 21px;
+	left: 25px;
+}
+
+a#b>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#b>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 18px;
+    transform: scale(.4);
+}
+
+a#b {  
+	position: absolute;
+	top: 3px;
+	left: 40px;
+}   
+
+a#c>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#c>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 21px;
+    transform: scale(.4);
+}
+
+a#c {  
+	position: absolute;
+	top: 3px;
+	left: 75px;
+}

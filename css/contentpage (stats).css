@@ -1,0 +1,197 @@
+body {
+	background-color: #103328;
+}
+
+h5 {
+	color:#47535e;
+	text-align: center;
+	font-family: georgia;
+}
+
+p {
+	text-align: center;
+	color: #E3DCD2;
+}
+
+p#p1 {
+	margin: auto;
+}
+
+p#p2{
+	margin: auto;
+}
+
+p#p3 {
+	margin: auto;
+}
+
+section#confirmedcases {
+	background-color: rgba(204,139,101,0.90);
+	display: block;
+	width: 450px;
+	height: 140px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #E3DCD2;
+	margin: 20px auto 10px auto;
+	padding: 10px ;
+	font-family: courier new;
+	border: solid;
+	border-width: 2px;
+	border-color: #47535e;
+}
+
+section#doses {
+	background-color: rgba(204,139,101,0.90);
+	display: block;
+	width: 450px;
+	height: 140px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #E3DCD2;
+	margin: 20px auto 10px auto;
+	padding: 10px ;
+	font-family: courier new;
+	border: solid;
+	border-width: 2px;
+	border-color: #47535e;
+}
+
+section#vaccinated {
+	background-color: rgba(204,139,101,0.90);
+	display: block;
+	width: 450px;
+	height: 140px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #E3DCD2;
+	margin: 20px auto 10px auto;
+	padding: 10px ;
+	font-family: courier new;
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+}
+
+h6{
+	color: #E3DCD2;
+	text-align: center;
+	font-family: georgia;
+}
+
+div#div {
+	position: absolute;
+	left: 33.2%;
+	top: 50px;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #E3DCD2;
+}
+
+ul#nav {
+	background-color: #47535e;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	height: 20px;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li#a>a {
+	text-decoration: none;
+	font-family: verdana;
+	padding: 10px;
+	color: #E3DCD2;
+}
+
+li#a>a:hover {
+	background-color: #E3DCD2;
+	color: #47535e;
+	overflow: hidden;
+}
+
+li#a>a:active {
+	color: #CC8B65;
+}
+
+a#a2 {
+	background-color: #103328;
+}
+
+a#a>.sprite {
+	background: url('../images/icon.png') no-repeat -330px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+	border-width: 10px;  
+    background-color:  #103328;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+
+}
+
+a#a>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -349px -401px;
+	width: 38px;
+	height: 37px;
+    transform: scale(.4); 
+	position: absolute;
+	top: 21px;
+	left: 25px;
+}
+
+a#b>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#b>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 18px;
+    transform: scale(.4);
+}
+
+a#b {  
+	position: absolute;
+	top: 3px;
+	left: 40px;
+}   
+
+a#c>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#c>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 21px;
+    transform: scale(.4);
+}
+
+a#c {  
+	position: absolute;
+	top: 3px;
+	left: 75px;
+}

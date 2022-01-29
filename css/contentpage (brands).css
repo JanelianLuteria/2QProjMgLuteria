@@ -1,0 +1,267 @@
+body{
+	background-color: #103328;
+	overflow: auto;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #E3DCD2;
+}
+
+ul#nav {
+	background-color: #47535e;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	height: 20px;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li#a>a {
+	text-decoration: none;
+	font-family: verdana;
+	padding: 10px;
+	color: #E3DCD2;
+}
+
+li#a>a:hover {
+	background-color: #E3DCD2;
+	color: #47535e;
+	overflow: hidden;
+}
+
+li#a>a:active {
+	color: #CC8B65;
+}
+
+a#a3 {
+	background-color: #103328;
+}
+
+div#div1 {
+	position: relative;
+	float: left;
+	margin: 20px;
+	width: 320px;
+}
+
+div#div2 {
+	float: left;
+	margin: 10px;
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height: 48px;
+	width: 320px;
+	padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+	overflow: hidden;
+	color: #47535e;
+	font-family: courier new;
+	color: #47535e;
+	background-color: #E3DCD2;
+}
+
+div#div {
+	float: left;
+	margin: 10px;
+	background-color: rgba(204,139,101,0.90);
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height: 48px;
+	width: 320px;
+	padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+	overflow: hidden;
+	color: #47535e;
+	transition: height 0.4s;
+}
+
+div#div:hover {
+	overflow: hidden;
+	height: 90px;
+}
+
+div#div3 {
+	float: left;
+	margin: 10px;
+	background-color: rgba(204,139,101,0.90);
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height: 48px;
+	width: 320px;
+	padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+	overflow: hidden;
+	color: #47535e;
+	transition: height 0.4s;
+}
+
+div#div3:hover {
+	overflow: hidden;
+	height: 70px;
+}
+
+div#div4 {
+	float: left;
+	margin: 10px;
+	background-color: rgba(204,139,101,0.90);
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height: 48px;
+	width: 320px;
+	padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+	overflow: hidden;
+	color: #47535e;
+	transition: height 0.4s;
+}
+
+div#div4:hover {
+	overflow: hidden;
+	height: 200px;
+}
+
+div#div5 {
+	float: left;
+	margin: 10px;
+	background-color: rgba(204,139,101,0.90);
+	border: solid;
+	border-width: 3px;
+	border-color: #47535e;
+	height: 48px;
+	width: 320px;
+	padding: 5px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+	overflow: hidden;
+	color: #47535e;
+	transition: height 0.4s;
+}
+
+div#div5:hover {
+	overflow: hidden;
+	height: 110px;
+}
+
+p{
+	color: #E3DCD2;
+}
+
+p#h {
+	color: #47535e;
+	padding: 0;
+}
+
+
+div#disc {
+	border: none; 
+	background-color: #F14E4E; 
+	width: 195px;
+	height: 150px;
+	position: absolute;
+	top: 20px;
+	right: 22.5px;
+	padding: 5px;
+	margin: 50px auto;
+}
+
+div#disc>p {
+	color: black;
+}
+
+a#a>.sprite {
+	background: url('../images/icon.png') no-repeat -330px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+	border-width: 10px;  
+    background-color:  #103328;
+	position: absolute;
+	top: 3px;
+	left: 5px;
+
+}
+
+a#a>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -349px -401px;
+	width: 38px;
+	height: 37px;
+    transform: scale(.4); 
+	position: absolute;
+	top: 21px;
+	left: 25px;
+}
+
+a#b>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#b>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 18px;
+    transform: scale(.4);
+}
+
+a#b {  
+	position: absolute;
+	top: 3px;
+	left: 40px;
+}   
+
+a#c>.sprite {
+	background: url('../images/icon.png') no-repeat -845px -510px;
+	width: 77px;
+	height: 76px;
+    transform: scale(.3);
+}
+
+a#c>.sprite:hover {
+	background: url('../images/icon.png') no-repeat -864px -403px;
+	width: 38px;
+	height: 33px;
+	position: absolute;
+	top: 20px;
+	left: 21px;
+    transform: scale(.4);
+}
+
+a#c {  
+	position: absolute;
+	top: 3px;
+	left: 75px;
+}
+
+img{
+	border: none; 
+	width: 205px;
+	position: absolute;
+	top: 258px;
+	right: 22.5px;
+}
