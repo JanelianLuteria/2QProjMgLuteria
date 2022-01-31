@@ -1,6 +1,6 @@
 body{
 	background-color: #103328;
-	overflow: hidden;
+	overflow: auto;
 }
 
 nav {
@@ -48,6 +48,7 @@ a#a3 {
 div#div1 {
 	position: relative;
 	float: left;
+	top: -8.5px;
 	margin: 20px;
 	width: 320px;
 }
@@ -142,7 +143,7 @@ div#div4:hover {
 
 div#div5 {
 	float: left;
-	margin: 10px;
+	margin: 8px;
 	background-color: rgba(204,139,101,0.90);
 	border: solid;
 	border-width: 3px;
@@ -151,8 +152,8 @@ div#div5 {
 	width: 320px;
 	padding: 5px;
 	position: relative;
-	left: 5px;
-	top: 30px;
+	left: 7px;
+	top: 32px;
 	overflow: hidden;
 	color: #47535e;
 	transition: height 0.4s;
@@ -198,8 +199,8 @@ a#a>.sprite {
     background-color:  #103328;
 	position: absolute;
 	top: 3px;
-	left: 5px;
-
+	left: 6px;
+	z-index: 1;
 }
 
 a#a>.sprite:hover {
@@ -224,7 +225,7 @@ a#b>.sprite:hover {
 	width: 38px;
 	height: 33px;
 	position: absolute;
-	top: 20px;
+	top: 21px;
 	left: 18px;
     transform: scale(.4);
 }
@@ -233,6 +234,7 @@ a#b {
 	position: absolute;
 	top: 3px;
 	left: 40px;
+	z-index: 1;
 }   
 
 a#c>.sprite {
@@ -247,7 +249,7 @@ a#c>.sprite:hover {
 	width: 38px;
 	height: 33px;
 	position: absolute;
-	top: 20px;
+	top: 21px;
 	left: 21px;
     transform: scale(.4);
 }
@@ -256,6 +258,7 @@ a#c {
 	position: absolute;
 	top: 3px;
 	left: 75px;
+	z-index: 1;
 }
 
 img{
