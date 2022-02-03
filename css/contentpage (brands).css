@@ -45,6 +45,16 @@ a#a3 {
 	background-color: #103328;
 }
 
+section#note {
+	position: absolute;
+	top: 20px;
+	left: 140px;
+}
+
+section#note>p {
+	color: black;
+}
+
 section#div1 {
 	position: relative;
 	float: left;
@@ -138,7 +148,7 @@ article#div3 {
 
 article#div3:hover {
 	overflow: hidden;
-	height: 200px;
+	height: 220px;
 }
 
 article#div4 {
@@ -180,7 +190,7 @@ aside#disc {
 	width: 195px;
 	height: 150px;
 	position: absolute;
-	top: 20px;
+	top: 10px;
 	right: 22.5px;
 	padding: 5px;
 	margin: 50px auto;
