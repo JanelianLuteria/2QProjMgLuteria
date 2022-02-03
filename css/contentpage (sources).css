@@ -40,7 +40,7 @@ ul#sources>li:hover {
 	cursor: pointer
 }
 
-div#div {
+section#div {
 	padding: 5px;
 	margin: 50px auto;
 	background-color: rgba(204,139,101,0.90);
@@ -60,9 +60,10 @@ p {
 }
 
 a#s {
-	margin: 0;
+	padding: 0;
 	text-decoration: none;
 	color: #47535e;
+	height: cover;
 	
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
